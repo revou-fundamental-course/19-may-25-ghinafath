@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kalkulator Suhu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <div class="container">
+    <div class="image-wrapper"> <img src="suhu/suhu.png" alt="cr adobe stock">
+    </div>
+
     <h1>Kalkulator Suhu</h1>
     <p>Masukkan suhu derajat Celsius (°C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
 
@@ -17,7 +23,7 @@
     <textarea id="celsius" rows="2"></textarea>
 
     <div class="button-group">
-      <button onclick="konversiCtoF()">Konversi</button>
+      <button onclick="konversiCtoF()">Convert</button>
       <button onclick="resetForm()">Reset</button>
       <button onclick="konversiFtoC()">Reverse</button>
     </div>

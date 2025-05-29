@@ -5,6 +5,14 @@ body {
   padding: 20px;
 }
 
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .container {
   max-width: 600px;
   margin: auto;
@@ -12,6 +20,24 @@ body {
   padding: 38px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.308);
+    padding: 15px 1px
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 textarea {
@@ -28,14 +54,26 @@ label {
 }
 
 .button-group {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
 
-button {
-  padding: 10px 20px;
-  cursor: pointer;
+.button-group button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(52, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: rgb(29, 8, 8);
 }
 
 .cara {
