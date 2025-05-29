@@ -1,5 +1,8 @@
 const directionText = document.getElementById("conversionDirection")
 
+// unnecessary comment
+// i added this for commit purposes
+
 function konversiCtoF() {
   const c = parseFloat(document.getElementById("celsius").value)
   if (isNaN(c)) {
